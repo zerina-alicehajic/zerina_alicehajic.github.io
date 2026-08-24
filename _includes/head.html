@@ -2,7 +2,7 @@
 
 {% include seo.html %}
 
-<link href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
+<link href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | absolute_url }}{% endif %}" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -11,6 +11,5 @@
 </script>
 
 <!-- For all browsers -->
-<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
-<link rel="stylesheet" href="{{ '/assets/css/fontawesome.css' | relative_url }}">
-<script src="{{ '/assets/js/main.min.js' | relative_url }}"></script>
+<link rel="stylesheet" href="{{ '/assets/css/main.css' | absolute_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/fontawesome.css' | absolute_url }}">
