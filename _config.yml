@@ -20,7 +20,7 @@ locale                   : "en-US"
 
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
 
-title                    : "Your Name / Site Title"
+title                    : "Academic website"
 
 title_separator          : "-"
 
@@ -48,19 +48,19 @@ author:
 
   avatar           : "profile.png"
 
-  name             : "Your Sidebar Name"
+  name             : "Zerina Aličehajić"
 
   pronouns         : # example: "she/her"  
 
   bio              : "Short biography for the left-hand sidebar"
 
-  location         : "Earth"
+  location         : "Sarajevo,BIH"
 
-  employer         : "Red Brick University"
+  employer         : "University of Sarajevo"
 
   uri              : # URL
 
-  email            : "none@example.org" 
+  email            : "zerina0703@gmail.com" 
 
 
 
